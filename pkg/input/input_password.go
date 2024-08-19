@@ -11,3 +11,4 @@ func GetInput() string {
 	input, _ := reader.ReadString('\n')
 	return strings.TrimSpace(input)
 }
+

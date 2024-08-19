@@ -12,11 +12,11 @@ import (
 
 func App() {
 	for {
-		fmt.Println("[1] Add Password")
-		fmt.Println("[2] Display Passwords")
-		fmt.Println("[3] Update Password")
-		fmt.Println("[4] Delete Password")
-		fmt.Println("[5] Exit")
+		fmt.Println("If you want to add a password, enter: 1")
+		fmt.Println("display a password, enter: 2")
+		fmt.Println("update a password, enter: 3")
+		fmt.Println("delete a password, enter: 4")
+		fmt.Println("exit the program, enter: 5")
 		fmt.Print("Enter your choise: ")
 
 		choice := input.GetInput()

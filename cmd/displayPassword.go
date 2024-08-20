@@ -13,7 +13,7 @@ import (
 // displayPasswordCmd represents the displayPassword command
 var displayPasswordCmd = &cobra.Command{
 	Use:   "display",
-	Short: "Показать пароли",
+	Short: "Display Passwords",
 	Long: `Крманда выводит в терминал все имеющиеся пароли`,
 	Run: func(cmd *cobra.Command, args []string) {
 		services.DisplayPasswords(db.Passwords)

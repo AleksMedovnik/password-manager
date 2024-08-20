@@ -13,7 +13,7 @@ import (
 // addPasswordCmd represents the addPassword command
 var addPasswordCmd = &cobra.Command{
 	Use:   "add",
-	Short: "Добавить пароль",
+	Short: "Add a Password",
 	Long: `Команда добавляет пароль в хранилище паролей`,
 	Run: func(cmd *cobra.Command, args []string) {
 		db.Passwords = services.AddPassword(db.Passwords)
